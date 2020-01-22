@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" value="IE=9">
+<title>Dodgy Skies Presskit</title>
+<link href="assets/css/presskit.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="./Kingdom Rush Vengeance Presskit_files/jquery.min.js.download"></script>
+<script type="text/javascript" src="./Kingdom Rush Vengeance Presskit_files/validation.js.download"></script>
+<script>
+	$(window).load( function() {
+		checkVis("factsheet");
+		checkVis("description");
+		checkVis("projects");
+		checkVis("trailers");
+		checkVis("images");
+		checkVis("logo");
+		checkVis("mediakit");
+		checkVis("awards");
+		checkVis("quotes");
+		checkVis("links");		checkVis("credits");
+		checkVis("contact");
+	} );
+
+	$(window).scroll( function() {
+		checkVis("factsheet");
+		checkVis("description");
+		checkVis("projects");
+		checkVis("trailers");
+		checkVis("images");
+		checkVis("logo");
+		checkVis("mediakit");
+		checkVis("awards");
+		checkVis("quotes");
+		checkVis("links");		checkVis("credits");
+		checkVis("contact");
+	} );
+
+	function checkVis(elem)
+	{
+		if( isVis( "#"+elem ) ) $("#m-"+elem).css("color","#000"); else $("#m-"+elem).css("color","#666");
+	}
+
+	function isVis(elem)
+	{
+		var docViewTop = $(window).scrollTop();
+		var docViewBottom = docViewTop + $(window).height();
+	
+		var elemTop = $(elem).offset().top;
+		var elemBottom = elemTop + $(elem).height();
+	
+		return ( (elemBottom >= docViewTop && elemBottom <= docViewBottom) || (elemTop <= docViewBottom && elemTop >= docViewTop) || (elemTop <= docViewTop && elemBottom >= docViewBottom) );
+	}
+</script>
+
+<!--<base target="_blank">--><base href="." target="_blank">
+
+</head>
+
+<body>
+	
+<!-- Page start -->
+<div id="container">
+
+    <!-- Navigation start -->
+    <div id="navigation">
+        <p></p><h1 id="game-title"><img src="images/title.png"></h1>
+        <strong><a href="#" target="_blank">dodgyskies.com</a></strong><p></p>
+        <br>
+        <ul>
+            <li><a href="#" id="m-factsheet" target="_self" style="color: rgb(102, 102, 102);">Factsheet</a></li>
+            <li><a href="#" id="m-description" target="_self" style="color: rgb(102, 102, 102);">Description</a></li>
+            <li><a href="#trailers" id="m-trailers" target="_self">Videos</a></li>
+            <li><a href="#images" id="m-images" target="_self">Images</a></li>
+            <li><a href="#logo" id="m-logo" target="_self">Logo &amp; Icon</a></li>
+            <!-- <li><a href="https://presskit.kingdomrushvengeance.com/#mediakit" id="m-mediakit" target="_self">Media Kit</a></li> -->
+            <li><a href="#credits" id="m-credits" target="_self">Team</a></li>
+            <!-- <li><a href="https://presskit.kingdomrushvengeance.com/#contact" id="m-contact" target="_self">Contact</a></li> -->
+        </ul>
+    </div>
+    
+    <div id="content">
+        <!-- Header -->
+        <img src="images/Banner.png" id="header">    
+        <!-- Factsheet start -->
+        <div id="factsheet">
+        <h2>Factsheet</h2>
+        
+        <!-- Gender -->
+        <p><strong>Genre:</strong><br>
+        Arcade<br></p>
+		
+        <!-- Developer information -->
+        <p><strong>Publisher:</strong><br>
+        <a href="#">Animal Crackers LLC</a><br></p>		
+        <p><strong>Developer:</strong><br>
+        <a href="#">Wyli Olivete</a><br></p>        
+        <!-- Release date -->
+        <p><strong>Release date:</strong><br>
+        August 26, 2018<br></p>
+		
+        <!-- Platforms -->
+        <p><strong>Platforms:</strong><br>
+        		iOS and Android<br></p>
+                
+        <!-- Website -->
+        <p><strong>Website:</strong><br>
+        <a href="#">dodgyskies.com</a><br></p>
+        <!-- Website -->
+        <!-- <p><strong>Press / Business Contact:</strong><br> -->
+        <!-- <a href="#">contact@animalcrackers.com</a><br></p> -->
+        <!-- misc -->
+
+        </div>
+        
+        <!-- Description start -->
+        <div id="right-of-factsheet">
+            <div id="description">
+            <h2>Description</h2>
+			Collect stars and dodge artillery strikes as one of many unique and quirky characters!
+			<br><br>
+			<strong>GAME FEATURES:</strong><br>
+			<li>Immerse yourself in exciting, fast-paced, action-packed gameplay!</li>
+			<li>Pick from different characters, each with their own special abilities and playstyle!</li>
+			<li>Enjoy tight, fluid controls!</li>
+			<li>Engage in a rewarding leveling and evolution system!</li>
+			<li>Awe at cute, stylized graphics and visuals!</li>
+			<li>Share your scores on the leaderboards and prove you're the best!</li>
+			<br><br><br>
+                        </div>
+           
+		</div>
+
+		<!-- Clear -->
+        <div class="clear">
+        
+        <!-- Trailers start -->
+        <div id="trailers">
+		<h2>Videos</h2>
+        <p><strong>Trailer</strong> <a href="https://www.youtube.com/watch?v=xz7685MqUcw">YouTube</a><br></p>        </div>
+        
+		<!-- Clear -->
+        <div class="clear">
+
+        <!-- Screenshots start -->
+        <div id="images">
+        <h2>Images</h2>
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot1.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot2.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot3.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot4.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot5.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot6.png" alt="dodgy_skies_01"></div></a>    
+        <a href="#"><div class="preview-wrapper"><img class="preview" src="images/gameshot7.png" alt="dodgy_skies_01"></div></a>    
+        </div>
+        
+		<!-- Clear -->
+        <div class="clear">
+
+        <!-- Logo start -->
+        <div id="logo">
+        <h2>Logo &amp; Icon</h2>
+        <a href="#"><img src="images/icon.png" alt="icon"></a>        </div>
+        
+		<!-- Clear 
+        <div class="clear" />
+		-->
+        <!-- Award start 
+        <div id="awards">
+        <h2>Awards & Recognition</h2>
+        <ul>
+                </ul>
+        </div>
+        -->
+
+		<!-- Clear 
+        <div class="clear" />
+		
+        <div id="awards">
+        <h2>Prequel Awards & Recognition (Kingdom Rush)</h2>
+        <ul>
+                </ul>
+        </div>
+        -->
+		
+		<!-- Clear 
+        <div class="clear" />
+		-->
+
+        <!-- Quote start 
+        <div id="quotes">
+        <h2>Prequel Selected Articles (Kingdom Rush)</h2>
+        <ul>
+                </ul>
+        </div>
+        -->
+        
+		<!-- Clear 
+        <div class="clear" />
+		-->
+
+        <!-- Links -->
+          
+
+		<!-- Clear -->
+        <div class="clear">      
+        
+        <!-- Credits -->
+        <div id="credits">
+        <h2>Dev Team</h2>
+        <p><strong>Wyli Olivete</strong><br>Creator</p><p><strong>Kevin Galvez</strong><br>Integration</p><p><strong>Arthur Datangel</strong><br>Publisher</p>        </div>
+        
+        <!-- Contact
+        <div id="contact">
+        <h2>Contact</h2>
+        <p><strong>Inquiries</strong><br><a href="mailto:contact@ironhidegames.com">contact@ironhidegames.com</a></p><p><strong>Twitter</strong><br><a href="https://twitter.com/ironhidegames">twitter.com/ironhidegames</a></p><p><strong>Facebook</strong><br><a href="https://facebook.com/ironhidegames">facebook.com/ironhidegames</a></p><p><strong>Instagram</strong><br><a href="https://instagram.com/ironhidegames">instagram.com/ironhidegames</a>        </p></div>
+        -->
+
+		<!-- Clear -->
+        <div class="clear">
+
+		<p class="credits"><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="https://presskit.kingdomrushvengeance.com/sheet.php?p=credits">these fine folks</a></p>
+
+    </div>
+</div>
+
+
+
+</div></div></div></div></div></div></body></html>
